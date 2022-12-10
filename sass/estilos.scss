@@ -1,21 +1,6 @@
-@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1,100 & family= Roboto:ital,wght@1,100 & display=swap');
-*{
-    padding: 0;
-    margin: 0;
-}
-
-.bkc{
-    background-color:rgb(125, 110, 131) ;
-}
-body, .bg{
-    background-color:azure ;
-}
-
-.logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-}
+@import "generales";
+@import "generales";
+@import "nesting";
 
 .card{
     margin-top: 20px;
@@ -66,21 +51,6 @@ footer{
     "letras"
     "imagenes"
     "footer";
-}
-
-.imagenes{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 10px;
-}
-
-.imagen{
-    width: 250px;
-    height: 250px;
-    padding: 10px;
-    border: 6px double rgb(125, 110, 131);
-    border-radius: 10px;
-    margin: 10px;
 }
 
 @media(min-width:576px){
@@ -156,14 +126,4 @@ footer{
     padding: 10px;
     background-color:rgb(125, 110, 131);
     color:white ;
-}
-
-footer{
-    padding: 10px;
-    margin: 40px 20px 40px 20px;
-}
-
-.icon{
-    width: 70px;
-    height: 70px;
 }
