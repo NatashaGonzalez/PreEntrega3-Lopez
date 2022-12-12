@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     margin: 10px;
     .imagen{
-        width: 250px;
+        width: ($ancho/2)-50px;
         height: 250px;
         padding: 10px;
         border: 6px double rgb(125, 110, 131);
