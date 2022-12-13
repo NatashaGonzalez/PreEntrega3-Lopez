@@ -4,32 +4,6 @@
 @import "generales";
 @import "nesting";
 
-.card{
-    margin-top: 20px;
-}
-
-.cuerpo{
-    background-color:rgb(248, 237, 227);
-    text-align: left;
-    font-family:'Poppins', sans-serif;
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
-nav ul, li, ol {
-    list-style-type: none;
-    padding: 5px;
-    margin: 5px;
-}
-
-a {
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 25px;
-}
-
 .titulos{
     grid-area: titulos;
 }
