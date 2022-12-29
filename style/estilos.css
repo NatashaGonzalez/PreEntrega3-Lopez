@@ -12,6 +12,11 @@ body, .bg {
   background-color: rgb(248, 237, 227);
 }
 
+.bg {
+  box-shadow: 0px 0px 5px 5px rgb(125, 110, 131);
+  -webkit-box-shadow: 0px 0px 5px 5px rgb(125, 110, 131);
+}
+
 .logo {
   width: 100px;
   height: 100px;
@@ -19,8 +24,15 @@ body, .bg {
 }
 
 .card {
-  margin-top: 30px;
+  margin-top: 40px;
   width: 18rem;
+  box-shadow: 8px 8px 10px 0 rgb(125, 110, 131);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 2s;
 }
 
 .container {
@@ -44,6 +56,12 @@ nav ul, li, ol {
   list-style-type: none;
   padding: 5px;
   margin: 5px;
+}
+
+.nav-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 8px 8px 10px 0 rgb(248, 237, 227);
 }
 
 a {
@@ -86,6 +104,11 @@ body, .bg {
   background-color: rgb(248, 237, 227);
 }
 
+.bg {
+  box-shadow: 0px 0px 5px 5px rgb(125, 110, 131);
+  -webkit-box-shadow: 0px 0px 5px 5px rgb(125, 110, 131);
+}
+
 .logo {
   width: 100px;
   height: 100px;
@@ -93,8 +116,15 @@ body, .bg {
 }
 
 .card {
-  margin-top: 30px;
+  margin-top: 40px;
   width: 18rem;
+  box-shadow: 8px 8px 10px 0 rgb(125, 110, 131);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 2s;
 }
 
 .container {
@@ -118,6 +148,12 @@ nav ul, li, ol {
   list-style-type: none;
   padding: 5px;
   margin: 5px;
+}
+
+.nav-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 8px 8px 10px 0 rgb(248, 237, 227);
 }
 
 a {
@@ -156,8 +192,7 @@ a {
   width: 250px;
   height: 250px;
   padding: 10px;
-  border: 6px double rgb(125, 110, 131);
-  border-radius: 10px;
+  box-shadow: 15px 15px 20px rgb(125, 110, 131);
   margin: 10px;
 }
 
